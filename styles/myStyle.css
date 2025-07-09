@@ -255,3 +255,7 @@ body {
 #pages {
   text-align: center;
 }
+.siteMapWrapper {
+    text-align: right;
+    padding-right: 30px;
+}
