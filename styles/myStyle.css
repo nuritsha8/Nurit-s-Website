@@ -222,7 +222,10 @@ body {
   text-align: right;
 }
 
-
+#moamadim {
+  text-align: right;
+  padding-right: 30px;
+}
 .contact-intro {
     text-align: center;
     margin-bottom: 30px;
