@@ -1,0 +1,220 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    direction: rtl;
+    font-family: Rubik;
+    width: 1280px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#hero {
+    position: relative;
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 27px;
+    overflow: hidden;
+}
+.BreadcrumbsNav {
+    direction: rtl;
+    margin: 20px 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.BreadcrumbsNav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.BreadcrumbsNav ol li {
+    display: inline-block;
+    color: #333;
+    font-size: 0.95em;
+    position: relative;
+}
+
+.BreadcrumbsNav ol li:not(:last-child)::after {
+    content: " > ";
+    margin: 0 8px;
+    color: #666;
+}
+
+.BreadcrumbsNav ol li a {
+    text-decoration: none;
+    color: #147818;
+}
+
+.BreadcrumbsNav ol li a:hover {
+    text-decoration: underline;
+}
+
+#campusImage {
+    width: 88%;
+    height: 380px;
+    border-radius: 27px;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#heroText {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 2em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.4;
+    padding: 0 20px;
+}
+
+#welcomeText {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: right;
+    line-height: 2;
+    font-size: 1.1em;
+    direction: rtl;
+}
+
+#bachelorsIntro,
+#mastersIntro {
+    padding: 40px 0 10px;
+    text-align: center;
+}
+
+#bachelorsIntro h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#bachelorsIntro h3,
+#mastersIntro h3 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+#bachelorsDegree,
+#mastersDegree {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.degreeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.indexPics {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.indexPics:hover {
+    transform: scale(1.05);
+}
+
+.indexPicsText {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #111;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.notActive {
+    pointer-events: none;
+    opacity: 1;
+    color: #111;
+}
+
+.gilboaNav {
+    background-color: #cce4bb;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navList > li {
+    position: relative;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 12px;
+    display: block;
+}
+
+.navLinks:hover {
+    color: #147818;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 180px;
+    z-index: 10;
+}
+
+.subMenu li {
+    text-align: right;
+}
+
+.subMenu .navLinks {
+    padding: 10px 15px;
+    color: #000000;
+}
+
+.navList li:hover .subMenu {
+    display: block;
+}
+.contact-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-intro h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact-intro p {
+    font-size: 1.1em;
+}
