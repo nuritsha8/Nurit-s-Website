@@ -205,6 +205,15 @@ body {
     cursor: not-allowed;
     pointer-events: none;
 }
+#campusImage {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin-right: auto; 
+}
+
 
 .contact-intro {
     text-align: center;
