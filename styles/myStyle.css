@@ -221,14 +221,14 @@ body {
 }
 
 .pagesH2 {
-    text-align: right;
+    text-align: center;
     font-weight: bold;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
 .aboutText {
-    text-align: right;
+    text-align: center;
     line-height: 1.6;
     font-size: 1.1em;
 }
