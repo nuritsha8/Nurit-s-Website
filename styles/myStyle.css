@@ -205,6 +205,10 @@ body {
     cursor: not-allowed;
     pointer-events: none;
 }
+#psychologySecondTitle,
+#psychologySecondTitle + p {
+    padding-right: 30px;
+}
 
 
 
