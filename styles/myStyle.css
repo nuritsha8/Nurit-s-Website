@@ -1,15 +1,17 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+הנה הקוד המתוקן והמסודר ללא הערות:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
     direction: rtl;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     width: 1280px;
     margin: 0 auto;
     overflow-x: hidden;
     background-color: #ffffff;
     position: relative;
 }
-
 
 #hero {
     position: relative;
@@ -19,6 +21,97 @@ body {
     border-radius: 27px;
     overflow: hidden;
 }
+
+#campusImage {
+    width: 88%;
+    height: 380px;
+    border-radius: 27px;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#heroText {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 2em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    line-height: 1.4;
+    padding: 0 20px;
+}
+
+#welcomeText {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: right;
+    line-height: 2;
+    font-size: 1.1em;
+}
+
+.gilboaNav {
+    background-color: #cce4bb;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navList > li {
+    position: relative;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 12px;
+    display: block;
+}
+
+.navLinks:hover {
+    color: #147818;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #9ac39b;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 180px;
+    z-index: 10;
+}
+
+.subMenu li {
+    text-align: right;
+}
+
+.subMenu .navLinks {
+    padding: 10px 15px;
+    color: #000000;
+}
+
+.navList li:hover .subMenu {
+    display: block;
+}
+
 .BreadcrumbsNav {
     direction: rtl;
     margin: 20px 40px;
@@ -51,39 +144,6 @@ body {
 
 .BreadcrumbsNav ol li a:hover {
     text-decoration: underline;
-}
-
-#campusImage {
-    width: 88%;
-    height: 380px;
-    border-radius: 27px;
-    display: block;
-    object-fit: cover;
-    margin: 0 auto;
-}
-
-#heroText {
-    position: absolute;
-    top: 5%;
-    right: 0;
-    left: 0;
-    text-align: center;
-    color: white;
-    font-weight: 900;
-    font-size: 2em;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-    font-family: 'Rubik', sans-serif;
-    line-height: 1.4;
-    padding: 0 20px;
-}
-
-#welcomeText {
-    max-width: 800px;
-    margin: 40px auto;
-    text-align: right;
-    line-height: 2;
-    font-size: 1.1em;
-    direction: rtl;
 }
 
 #bachelorsIntro,
@@ -144,71 +204,8 @@ body {
 .notActive {
     opacity: 1;
     color: #111;
-  cursor: not-allowed;
-  pointer-events: none; 
- 
-}
-}
-
-.gilboaNav {
-    background-color: #cce4bb;
-    padding: 10px 20px;
-    border-bottom: 2px solid #ddd;
-    font-family: 'Rubik', sans-serif;
-}
-
-.navList {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.navList > li {
-    position: relative;
-}
-
-.navLinks {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.1em;
-    font-weight: 500;
-    padding: 8px 12px;
-    display: block;
-}
-
-.navLinks:hover {
-    color: #147818;
-}
-
-.subMenu {
-    display: none;
-    position: absolute;
-    top: 40px;
-    right: 0;
-    background-color: #9ac39b;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    list-style: none;
-    padding: 10px 0;
-    min-width: 180px;
-    z-index: 10;
-}
-
-
-.subMenu li {
-    text-align: right;
-}
-
-.subMenu .navLinks {
-    padding: 10px 15px;
-    color: #000000;
-}
-
-.navList li:hover .subMenu {
-    display: block;
+    cursor: not-allowed;
+    pointer-events: none;
 }
 
 .contact-intro {
@@ -224,3 +221,4 @@ body {
 .contact-intro p {
     font-size: 1.1em;
 }
+
