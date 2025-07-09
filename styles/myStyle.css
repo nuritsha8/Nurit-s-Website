@@ -209,25 +209,7 @@ body {
 .navList li:hover .subMenu {
     display: block;
 }
-.admissionRequire {
-  text-align: center;
-  direction: rtl;
-}
 
-.admissionRequire ul {
-  display: inline-block;
-  text-align: right;
-  margin-right: 0; 
-  padding-right: 0;
-}
-
-.admissionRequire h2,
-.admissionRequire h3,
-.admissionRequire h4,
-.admissionRequire p {
-  margin: 0 auto;
-  max-width: 800px; 
-}
 .contact-intro {
     text-align: center;
     margin-bottom: 30px;
