@@ -206,9 +206,12 @@ body {
     pointer-events: none;
 }
 #psychologySecondTitle,
-#psychologySecondTitle + p {
-    padding-right: 30px;
+#psychologySecondTitle + p,
+#psychologySecondTitle + p + p {
+  text-align: right;
+  padding-right: 30px;
 }
+
 #psycho {
   text-align: right;     
   margin-right: 30px;     
