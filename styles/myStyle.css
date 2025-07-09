@@ -246,6 +246,10 @@ body {
     font-size: 2em;
     margin-bottom: 20px;
 }
+#aboutTitle {
+  text-align: right;
+  padding-right: 30px;
+}
 
 .aboutText {
     text-align: center;
